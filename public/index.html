@@ -11,7 +11,6 @@
         
     </head>
     <body>
-        sample
         <div id="content"></div>
         <script type="text/babel">
         "use strict";
@@ -149,7 +148,7 @@
           }
     
         ReactDOM.render(
-            <CommentBox url="/api/comments" pollInterval={2000}/>,
+            <CommentBox url="/api/comments" />,
             document.getElementById('content')
         );
         </script>
